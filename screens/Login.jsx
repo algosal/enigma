@@ -34,6 +34,10 @@ function LoginButtonComponent({navigation}) {
   };
 
   async function handleLoginFirst() {
+    if (!username | !password) {
+      alert('Feilds can NOT be empty');
+      return;
+    }
     await handleLogin(username, password)
       .then(data => {
         let decision = data.data.statusCode;
