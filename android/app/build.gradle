@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.consciousneurons.enigma"
+    namespace "com.cnenigma"
     defaultConfig {
-        applicationId "com.consciousneurons.enigma"
+        applicationId "com.cnenigma"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

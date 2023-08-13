@@ -1,4 +1,4 @@
-package com.consciousneurons.enigma;
+package com.cnenigma;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
